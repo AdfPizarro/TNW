@@ -129,8 +129,26 @@ a{
 }
 
 
+  /* latest-news section*/
 
+h3  a{
+  font-size: 28px;
+  color: #f42;
+}
 
+.latest-news {
+  font-family: 'Avalon Bold' ,sans-serif;
+  margin: 20px;
+}
+
+.news-img-container{
+  width: 75px;
+  height: 75px;
+}
+
+.news-img-container a{
+  background: url(../images/news-twitter.jpg) cover no-repeat 50%;
+}
 
 
 
