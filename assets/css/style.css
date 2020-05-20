@@ -1,0 +1,59 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav {
+    height: 48px;
+    justify-content: space-between;
+}
+
+.logo-container {
+    background: url(../images/logo.svg) center no-repeat, linear-gradient(red, yellow);
+    width: 106px;
+    height: 100%;
+}
+
+.nav-buttons,
+.nav-buttons div {
+    height: 100%;
+}
+
+.search-container {
+    width: 48px;
+    color: rgb(136, 135, 135);
+    border-left: 1px solid #eee;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    width: 48px;
+    color: #f42;
+    border-left: 1px solid #eee;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-banner{
+    height: 76px;
+    background-color: #fd3;
+    align-items: center;
+}
+
+.nav-banner span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/* Helper classes */
+.flex {display: flex;}
