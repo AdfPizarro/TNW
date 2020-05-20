@@ -1,4 +1,15 @@
+@font-face {
+font-family: "Avalon";
+src: url('../fonts/Avalon Regular.ttf')  format('truetype');
+}
+
+@font-face {
+font-family: "Avalon Bold";
+src: url('../fonts/avalon-bold.ttf')  format('truetype');
+}
+
 header {
+
     position: fixed;
     top: 0;
     left: 0;
@@ -54,10 +65,10 @@ a{
     font-weight: 100;
 }
 
+
 .top-articles-container{
   width: auto;
   margin-top: 116px;
-
 }
 
 .top-articles-container a:hover{
@@ -81,6 +92,8 @@ a{
   padding: 14px 12px;
   font-size: 20px;
   align-self: flex-end;
+  font-family: 'Avalon Bold' ,sans-serif;
+  font-weight: 700;
 }
 
 .ta-image-container{
@@ -95,6 +108,7 @@ a{
   color: hsla(0,0%,100%,.6);
   font-size: 12px;
   margin: 5px 0px;
+  font-family: 'ARS Maquette', sans-serif;
 }
 
 .top-article .material-icons{
