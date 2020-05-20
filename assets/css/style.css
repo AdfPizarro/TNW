@@ -7,6 +7,11 @@ header {
 nav {
     height: 48px;
     justify-content: space-between;
+    background-color: white;
+}
+
+a{
+  text-decoration: none;
 }
 
 .logo-container {
@@ -37,7 +42,7 @@ nav {
 }
 
 .nav-banner{
-    height: 76px;
+    height: 60px;
     background-color: #fd3;
     align-items: center;
 }
@@ -46,6 +51,67 @@ nav {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-weight: 100;
+}
+
+.top-articles-container{
+  width: auto;
+  margin-top: 116px;
+
+}
+
+.top-articles-container a:hover{
+ color: white;
+}
+
+.top-article{
+  height: 30vh;
+  color: white;
+}
+
+
+
+.a1{ background: url(../images/top-bitcoin.jpg) center no-repeat;}
+
+.a2{ background: rgba(0,0,0,.25) url(../images/morality.png) center no-repeat;}
+
+.a3{ background: rgba(0,0,0,.25) url(../images/Sprint_image.png) center no-repeat;}
+
+.top-article .header{
+  padding: 14px 12px;
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.ta-image-container{
+  margin: 8px;
+}
+
+.shadow {
+ background: linear-gradient( rgba(0,0,0,.25),  rgba(0,0,0,.70));
+}
+
+.top-article .info{
+  color: hsla(0,0%,100%,.6);
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+.top-article .material-icons{
+ font-size: 14px;
+ vertical-align: bottom;
+}
+
+.top-article .authors-name{
+  color: hsla(0,0%,100%,.6);
+}
+
+.top-article a{
+  color: white;
+}
+
+.top-article li{
+  display: inline-block;
 }
 
 
