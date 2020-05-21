@@ -437,7 +437,11 @@ h3  a{
   font-size: 13px;
 }
 
-
+.header span {
+  font-family: 'Shentox', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
 
 
 
