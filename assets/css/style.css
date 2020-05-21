@@ -44,6 +44,26 @@ a{
     height: 100%;
 }
 
+.nav-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #131313;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: relative;
+  z-index: 2;
+
+}
+
+.nav-top li{
+  display: inline-block;
+  color: #555;
+}
+
+
 .nav-buttons,
 .nav-buttons div {
     height: 100%;
@@ -616,6 +636,30 @@ h3  a{
 
 .heart{
   color: #f42;
+}
+
+@media (min-width: 768px) {
+  nav {
+    height: 80px;
+  }
+  .nav-buttons .menu-container{
+    display: none;
+  }
+  .nav-buttons {
+      height: 48px;
+      align-self: flex-end;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .nav-top {
+    display: none;
+  }
+
+
+
 }
 
 /* Helper classes */
