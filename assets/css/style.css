@@ -68,6 +68,7 @@ a{
     height: 60px;
     background-color: #fd3;
     align-items: center;
+    box-shadow: 0 16px 48px rgba(0,0,0,.15);
 }
 
 .nav-banner span {
@@ -83,16 +84,14 @@ a{
   margin-top: 116px;
 }
 
-.top-articles-container a:hover{
+/* .top-articles-container a:hover{
  color: white;
-}
+} */
 
-.top-article{
+.top-article {
   height: 30vh;
   color: white;
 }
-
-
 
 .a1{ background: url(../images/top-bitcoin.jpg) center no-repeat;}
 
@@ -100,13 +99,18 @@ a{
 
 .a3{ background: rgba(0,0,0,.25) url(../images/Sprint_image.png) center no-repeat;}
 
-.top-article .header{
+.top-article .header,
+.recommended-article .header{
   padding: 14px 12px;
   font-size: 20px;
   align-self: flex-end;
   font-family: 'Avalon Bold' ,sans-serif;
   font-weight: 700;
 }
+
+/*
+
+*/
 
 .ta-image-container{
   margin: 8px;
@@ -116,7 +120,8 @@ a{
  background: linear-gradient( rgba(0,0,0,.25),  rgba(0,0,0,.70));
 }
 
-.top-article .info{
+.top-article .info,
+.recommended-article .info{
   color: hsla(0,0%,100%,.6);
   font-size: 12px;
   margin: 5px 0px;
@@ -128,15 +133,18 @@ a{
  vertical-align: bottom;
 }
 
-.top-article .authors-name{
+.top-article .authors-name,
+.recommended-article .authors-name{
   color: hsla(0,0%,100%,.6);
 }
 
-.top-article a{
+.top-article a,
+.recommended-article a{
   color: white;
 }
 
-.top-article li{
+.top-article li,
+.recommended-article li{
   display: inline-block;
 }
 
@@ -158,7 +166,7 @@ h3  a{
     margin: 24px 0;
 }
 
-.news-img-container{
+.news-img-container {
   min-width: 75px;
   height: 75px;
 }
@@ -231,7 +239,8 @@ h3  a{
     margin-bottom: 5px;
 }
 
-.story-content {
+.story-content,
+.recommended-story-content  {
     margin: 0 15px;
 }
 
@@ -357,6 +366,79 @@ h3  a{
 .founding-footer .source-site{
   color: #aaa;
 }
+
+/* Recommended section */
+
+.recommended-articles-container {
+  margin: 20px;
+}
+
+.recommended h3 {
+  margin: 14px 0;
+}
+
+.recommended-articles-container .ta-image-container{
+  margin: 0;
+}
+
+.recommended-article{
+  height: 60vh;
+  color: white;
+}
+
+.recommended-story-content {
+  margin: 5px 0;
+  color: #f42;
+}
+
+.recommended-story-content a {
+  font-family: 'ARS Maquette bold', sans-serif;
+  font-size: 14px;
+  color: #f42;
+}
+
+.recommended-story-content span{
+  font-family: 'Shentox', sans-serif;
+  font-size: 13px;
+}
+
+.rec-img-container{
+  min-width: 96px;
+  height: 96px;
+}
+
+.recommended-story-text {
+  padding: 10px 14px 0 14px;
+  background-color: rgba(255,68,34,.06);
+}
+
+.recommended-list a {
+  display: block;
+  position: relative;
+  color: #555;
+  padding: 6px 0 6px 14px;
+}
+
+.recommended-list a::before{
+  background-color: #f42;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.recommended-list li {
+  font-family: 'ARS maquette', sans-serif ;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+}
+
+
+
 
 
 /* Helper classes */
