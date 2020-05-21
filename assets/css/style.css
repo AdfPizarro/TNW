@@ -157,7 +157,11 @@ h3  a{
   font-family: "Avalon bold", sans-serif;
 }
 
-.latest-news {
+.latest-news,
+.deals,
+.latest-funding,
+.recommended-articles-container
+{
   /* font-family: 'Avalon Bold' ,sans-serif; */
   margin: 20px;
 }
@@ -235,22 +239,26 @@ h3  a{
     display: block;
 }
 
-.story {
+.story
+.deal {
     margin-bottom: 5px;
 }
 
 .story-content,
+.deal-content,
 .recommended-story-content  {
     margin: 0 15px;
 }
 
-.story-content a {
+.story-content a,
+.deal-content a{
     font-family: 'ARS Maquette bold', sans-serif;
     font-size: 14px;
     color: black;
 }
 
-.story-content li {
+.story-content li,
+.deal-content li {
     display: inline-block;
     font-family: 'ARS Maquette', sans-serif;
     font-size: 12px;
@@ -265,9 +273,8 @@ h3  a{
     margin-left: 4px;
 }
 
-.latest-funding {
-    margin: 20px;
-}
+
+
 
 .latest-funding-links a{
     color: #f42;
@@ -369,9 +376,7 @@ h3  a{
 
 /* Recommended section */
 
-.recommended-articles-container {
-  margin: 20px;
-}
+
 
 .recommended h3 {
   margin: 14px 0;
@@ -488,13 +493,65 @@ h3  a{
 
 
 
+/* Deals */
+
+.deal {
+  margin: 8px 0;
+}
+
+.deals-tittle{
+  margin-bottom: 20px;
+}
+
+.deals-link{
+  color: #f42;
+  font-family: 'ARS Maquette', sans-serif;
+  font-size: 14px;
+  margin-top: 11px;
+}
+
+.price{
+  font-family: 'ARS Maquette', sans-serif;
+  margin-top: 4px;
+}
+
+.old-price{
+  color: #aaa;
+  font-size: 12px;
+  margin-right: 4px;
+  text-decoration:  line-through;
+}
+
+.new-price{
+  color: #555;
+  font-size: 14px;
+}
+
+.deal-img1 { background: #000 url(../images/deals-1.jpg) 50% no-repeat; }
+.deal-img2 { background: #000 url(../images/deals-2.jpg) 50% no-repeat; }
+.deal-img3 { background: #000 url(../images/deals-3.jpg) 50% no-repeat; }
+.deal-img4 { background: #000 url(../images/deals-4.jpg) 50% no-repeat; }
+.deal-img5 { background: #000 url(../images/deals-5.jpg) 50% no-repeat; }
+.deal-img6 { background: #000 url(../images/deals-6.jpg) 50% no-repeat; }
+.deal-img7 { background: #000 url(../images/deals-7.jpg) 50% no-repeat; }
+.deal-img8 { background: #000 url(../images/deals-8.jpg) 50% no-repeat; }
 
 
+.deals-img-container {
+  min-width: 75px;
+  height: 75px;
+}
 
-
-
+.deals-img-container a{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
 
 
 /* Helper classes */
-.flex {display: flex;}
+.flex { display: flex; }
+.flex-between { justify-content: space-between; }
+.flex-align-end{ align-content: flex-end;}
