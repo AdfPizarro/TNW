@@ -44,6 +44,11 @@ a{
     height: 100%;
 }
 
+.main-nav {
+  width: 100%;
+
+}
+
 .nav-top{
   width: 100%;
   display: flex;
@@ -648,6 +653,7 @@ h3  a{
   .nav-buttons {
       height: 48px;
       align-self: flex-end;
+      justify-content: flex-end;
   }
 
 
@@ -656,6 +662,14 @@ h3  a{
 @media (max-width: 768px) {
   .nav-top {
     display: none;
+  }
+
+  .nav-bottom {
+    height: 100%;
+  }
+
+  .nav-buttons {
+    justify-content: flex-end;
   }
 
 
