@@ -95,9 +95,9 @@ a{
 
 .a1{ background: url(../images/top-bitcoin.jpg) center no-repeat;}
 
-.a2{ background: rgba(0,0,0,.25) url(../images/morality.png) center no-repeat;}
+.a2{ background: url(../images/morality.png) center no-repeat;}
 
-.a3{ background: rgba(0,0,0,.25) url(../images/Sprint_image.png) center no-repeat;}
+.a3{ background: url(../images/Sprint_image.png) center no-repeat;}
 
 .top-article .header,
 .recommended-article .header{
@@ -442,6 +442,34 @@ h3  a{
   font-size: 13px;
   font-weight: 400;
 }
+
+
+.r1 {background: url(../images/news-twitter.jpg) center no-repeat;}
+
+.r2 {background: url(../images/honor.png) center no-repeat;}
+
+.r3 {background: url(../images/coronavirus-model.jpg) center no-repeat;}
+
+.r4 {background: url(../images/xp-css.png) center no-repeat;}
+
+.r5 {background: url(../images/cookie.png) center no-repeat;}
+
+.r6 {background: url(../images/diverse-team.png) center no-repeat;}
+
+.r7 {background: url(../images/facebook.jpg) center no-repeat;}
+
+.r8 {background: url(../images/hbo.jpg) center no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
