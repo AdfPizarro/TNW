@@ -13,12 +13,19 @@ src: url('../fonts/avalon-bold.ttf')  format('truetype');
     src: url('../fonts/ars-maquette.ttf')  format('truetype');
     }
 
+@font-face {
+    font-family: "Shentox";
+    src: url('../fonts/shentox-medium.ttf')  format('truetype');
+    }
+
+
 header {
 
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
 }
 nav {
     height: 48px;
@@ -186,7 +193,7 @@ h3  a{
     width: 100%;
     height: 100%;
     display: block;
-}  
+}
 
 .new-img5{
     background: #000 url(../images/news-elon.jpg) 50% no-repeat;
@@ -268,6 +275,88 @@ h3  a{
 }
 
 
+/* Founding section */
+
+
+.founding-item {
+  font-family: 'ARS maquette bold', sans-serif;
+  font-size: 18px;
+  background-color: #fffaf8;
+}
+
+.founding-item .title {
+  padding: 10px 16px 10px 84px;
+  background: #f42;
+  color: white;
+}
+
+.founding-item h5{
+  font-family: 'Shentox', sans-serif;
+  font-size: 11px;
+  opacity: .5;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.founding-item .content {
+  padding: 10px 16px 10px 84px;
+  background: rgba(255,68,34,.08);
+  font-weight: 700;
+  color: black;
+}
+
+.founding-item img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  margin: 10.6666666667px;
+  width: 60px;
+  height: 60px;
+
+}
+
+.founding-item a{
+  position: relative;
+  display: block;
+
+}
+
+.founding-item .info{
+  padding: 16px;
+  border-bottom: 1px solid rgba(255,68,34,.25);
+  margin: 8px 0;
+}
+
+.founding-footer{
+  font-family: 'ARS Maquette', sans-serif;
+  color: #555;
+  font-size: 12px;
+}
+
+.founding-footer .source{
+  padding: 16px;
+}
+
+.founding-footer li{
+  margin-bottom: 7px;
+}
+
+.founding-footer .material-icons{
+  font-size: 15px;
+}
+
+.founding-footer .icon{
+  margin-right: 13px;
+}
+
+.founding-footer .icon{
+  margin-right: 13px;
+}
+
+.founding-footer .source-site{
+  color: #aaa;
+}
 
 
 /* Helper classes */
