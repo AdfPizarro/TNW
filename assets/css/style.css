@@ -38,7 +38,8 @@ a{
 }
 
 .logo-container {
-    background: url(../images/logo.svg) center no-repeat, linear-gradient(red, yellow);
+    background: url(../images/logo.svg) center no-repeat , linear-gradient(red, yellow);
+    background-size: 65%;
     width: 106px;
     height: 100%;
 }
@@ -76,6 +77,8 @@ a{
     white-space: nowrap;
     overflow: hidden;
     font-weight: 100;
+    font-family: "ARS maquette", sans-serif;
+    font-size: 12px;
 }
 
 
