@@ -549,9 +549,74 @@ h3  a{
   display: block;
 }
 
+.footer-links {
+  background: #131313;
+  color: White;
+  padding: 35px 0;
+}
 
+.footer-legal {
+  background: #000;
+}
+
+.social-media{
+  justify-content: center;
+  margin-bottom: 21px;
+}
+
+.social-media li{
+  background: #333;
+  height: 40px;
+  width: 40px;
+  margin: 0 3px;
+  border-radius: 50%;
+}
+
+.social-media a{
+  border-radius: 50%;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  color: white;
+}
+
+.page-links{
+  justify-content: center;
+  font-family: 'Shentox', sans-serif;
+  font-size: 13px;
+}
+
+.page-links a{
+  color: #aaa;
+  text-transform: uppercase;
+  margin: 0 4px;
+}
+
+.footer-legal{
+  background: black;
+  color: #aaa;
+  font-family: 'ARS Maquette', sans-serif;
+  font-size: 13px;
+  padding: 32.5px 0;
+  line-height: 1.5;
+}
+
+.footer-legal div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-legal img{
+  height: 9px;
+}
+
+.heart{
+  color: #f42;
+}
 
 /* Helper classes */
 .flex { display: flex; }
 .flex-between { justify-content: space-between; }
 .flex-align-end{ align-content: flex-end;}
+.flex-justify-center {justify-content: center;}
