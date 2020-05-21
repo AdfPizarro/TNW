@@ -656,6 +656,14 @@ h3  a{
       justify-content: flex-end;
   }
 
+  .nav-banner{
+    height: 30px;
+  }
+
+  .nav-banner {
+    margin: auto;
+  }
+
 
 }
 
