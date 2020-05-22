@@ -143,6 +143,7 @@ a{
 .top-articles-container{
   width: auto;
   margin-top: 116px;
+  height: 60vh;
 }
 
 /* .top-articles-container a:hover{
@@ -150,7 +151,7 @@ a{
 } */
 
 .top-article {
-  height: 30vh;
+
   color: white;
 }
 
@@ -179,6 +180,8 @@ a{
 
 .shadow {
  background: linear-gradient( rgba(0,0,0,.25),  rgba(0,0,0,.70));
+ width: 100%;
+ height: 100%;
 }
 
 .top-article .info,
@@ -703,6 +706,13 @@ h3  a{
   left: 17px;
 }
 
+
+@media (min-width: 1024px) {
+  .logo-container{
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   nav {
     height: 80px;
@@ -733,6 +743,7 @@ h3  a{
     grid-row: 1 / 3;
     display: flex;
     align-items: flex-end;
+    background-size: cover;
   }
 
   .latest-news {
