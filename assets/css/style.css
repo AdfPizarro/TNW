@@ -18,6 +18,14 @@
   src: url('../fonts/shentox-medium.ttf')  format('truetype');
 }
 
+header, footer, .latest-news,
+  .latest-funding,
+  .recommended-articles-container,
+  .deals
+  {
+  font-family: "ARS Maquette", sans-serif;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -89,7 +97,6 @@ h3 a {
 
 .nav-top a {
   color: hsla(0, 0%, 100%, 0.6);
-  font-family: 'ARS Maquette', sans-serif;
   font-size: 13px;
 }
 
@@ -138,7 +145,6 @@ h3 a {
   white-space: nowrap;
   overflow: hidden;
   font-weight: 100;
-  font-family: 'ARS Maquette', sans-serif;
   font-size: 12px;
 }
 
@@ -146,10 +152,6 @@ h3 a {
   width: auto;
   margin-top: 116px;
 }
-
-/* .top-articles-container a:hover{
- color: white;
-} */
 
 .top-article {
   color: white;
@@ -185,7 +187,6 @@ h3 a {
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 12px;
   margin: 5px 0;
-  font-family: 'ARS Maquette', sans-serif;
 }
 
 .top-article .material-icons {
@@ -226,69 +227,21 @@ h3 a {
   height: 75px;
 }
 
-.new-img1 {
-  background: #000 url(../images/news-twitter.jpg) 50% no-repeat;
+.news-img-container a {
   background-size: cover;
   width: 100%;
   height: 100%;
   display: block;
 }
 
-.new-img2 {
-  background: #000 url(../images/news-train.png) 50% no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.new-img3 {
-  background: #000 url(../images/news-tablet.png) 50% no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.new-img4 {
-  background: #000 url(../images/news-moon.png) 50% no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.new-img5 {
-  background: #000 url(../images/news-elon.jpg) 50% no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.new-img6 {
-  background: #000 url(../images/news-car.jpg) 50% no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.new-img7 {
-  background: #000 url(../images/news-captcha.png) 50% no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.new-img8 {
-  background: #000 url(../images/top-bitcoin.jpg) 50% no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+.new-img1 { background: #000 url(../images/news-twitter.jpg) 50% no-repeat; }
+.new-img2 { background: #000 url(../images/news-train.png) 50% no-repeat; }
+.new-img3 { background: #000 url(../images/news-tablet.png) 50% no-repeat; }
+.new-img4 { background: #000 url(../images/news-moon.png) 50% no-repeat; }
+.new-img5 { background: #000 url(../images/news-elon.jpg) 50% no-repeat; }
+.new-img6 { background: #000 url(../images/news-car.jpg) 50% no-repeat; }
+.new-img7 { background: #000 url(../images/news-captcha.png) 50% no-repeat; }
+.new-img8 { background: #000 url(../images/top-bitcoin.jpg) 50% no-repeat; }
 
 .deal {
   margin: 8px 0;
@@ -306,15 +259,14 @@ h3 a {
 
 .story-content a,
 .deal-content a {
-  font-family: 'ARS Maquette bold', sans-serif;
   font-size: 14px;
   color: black;
+  font-family:  'ARS maquette bold', sans-serif;
 }
 
 .story-content li,
 .deal-content li {
   display: inline-block;
-  font-family: 'ARS Maquette', sans-serif;
   font-size: 12px;
   color: #aaa;
   padding-top: 8px;
@@ -329,7 +281,6 @@ h3 a {
 
 .latest-funding-links a {
   color: #f42;
-  font-family: 'ARS Maquette', sans-serif;
   font-size: 14px;
 }
 
@@ -345,7 +296,7 @@ h3 a {
 /* Founding section */
 
 .founding-item {
-  font-family: 'ARS maquette bold', sans-serif;
+
   font-size: 18px;
   background-color: #fffaf8;
 }
@@ -357,6 +308,10 @@ h3 a {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.founding-item h4{
+    font-family: 'ARS maquette bold', sans-serif;
 }
 
 .founding-item h5 {
@@ -396,7 +351,6 @@ h3 a {
 }
 
 .founding-footer {
-  font-family: 'ARS Maquette', sans-serif;
   color: #555;
   font-size: 12px;
 }
@@ -420,6 +374,7 @@ h3 a {
 .founding-footer .source-site {
   color: #aaa;
 }
+
 
 /* Recommended section */
 
@@ -477,7 +432,6 @@ h3 a {
 }
 
 .recommended-list li {
-  font-family: 'ARS maquette', sans-serif;
   border-bottom: 1px solid #eee;
   font-size: 13px;
 }
@@ -489,19 +443,12 @@ h3 a {
 }
 
 .r1 { background: url(../images/news-twitter.jpg) center no-repeat; }
-
 .r2 { background: url(../images/honor.png) center no-repeat; }
-
 .r3 { background: url(../images/coronavirus-model.jpg) center no-repeat; }
-
 .r4 { background: url(../images/xp-css.png) center no-repeat; }
-
 .r5 { background: url(../images/cookie.png) center no-repeat; }
-
 .r6 { background: url(../images/diverse-team.png) center no-repeat; }
-
 .r7 { background: url(../images/facebook.jpg) center no-repeat; }
-
 .r8 { background: url(../images/hbo.jpg) center no-repeat; }
 
 .rec-img-container {
@@ -517,19 +464,12 @@ h3 a {
 }
 
 .rec-img1 { background: #000 url(../images/Jitsi-feat.jpg) 50% no-repeat; }
-
 .rec-img2 { background: #000 url(../images/headphones.png) 50% no-repeat; }
-
 .rec-img3 { background: #000 url(../images/coca-cola.png) 50% no-repeat; }
-
 .rec-img4 { background: #000 url(../images/ai-wrote.png) 50% no-repeat; }
-
 .rec-img5 { background: #000 url(../images/greta.png) 50% no-repeat; }
-
 .rec-img6 { background: #000 url(../images/sharper-axe.png) 50% no-repeat; }
-
 .rec-img7 { background: #000 url(../images/mart.jpg) 50% no-repeat; }
-
 .rec-img8 { background: #000 url(../images/command.jpg) 50% no-repeat; }
 
 /* Deals */
@@ -540,13 +480,11 @@ h3 a {
 
 .deals-link {
   color: #f42;
-  font-family: 'ARS Maquette', sans-serif;
   font-size: 14px;
   margin-top: 11px;
 }
 
 .price {
-  font-family: 'ARS Maquette', sans-serif;
   margin-top: 4px;
 }
 
@@ -620,7 +558,6 @@ h3 a {
 .footer-legal {
   background: black;
   color: #aaa;
-  font-family: 'ARS Maquette', sans-serif;
   font-size: 13px;
   padding: 32.5px 0;
   line-height: 1.5;
@@ -665,7 +602,6 @@ h3 a {
   transform: rotate(45deg);
   font-size: 14px;
   font-weight: 700;
-  font-family: 'ARS Maquette', sans-serif;
   position: relative;
   top: 30px;
   left: 17px;
@@ -749,7 +685,6 @@ h3 a {
 
   .latest-funding-links a {
     font-size: 16px;
-    font-family: 'ARS Maquette', sans-serif;
   }
 
   .latest-funding-links div {
@@ -810,6 +745,10 @@ h3 a {
 }
 
 @media (max-width: 768px) {
+  .story {
+    margin: 8px 0;
+  }
+
   .nav-top,
   .nav-menu,
   .discount {
@@ -829,6 +768,9 @@ h3 a {
     justify-content: flex-end;
   }
 }
+
+/* Fonts */
+
 
 @media (min-width: 1024px) {
   .logo-container {
@@ -864,7 +806,6 @@ h3 a {
   .logo-top {
     display: flex;
     justify-content: space-between;
-    font-family: 'ARS Maquette', sans-serif;
     font-size: 14px;
     color: #fff;
     margin: 24px;
