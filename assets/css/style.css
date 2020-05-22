@@ -60,12 +60,45 @@ a{
   max-height: 32px;
   position: relative;
   z-index: 2;
+}
 
+.nav-bottom {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu a {
+  color: #aaaaaa;
+  font-family: 'Shentox', sans-serif;
+  font-size: 14px;
+  padding: 0 10px 0 20px;
+}
+
+.nav-menu ul {
+  align-items: center;
 }
 
 .nav-top li{
   display: inline-block;
-  color: #555;
+  margin-left: 10px;
+}
+
+.nav-top a {
+  color:hsla(0,0%,100%,.6);
+  font-family: 'ARS Maquette', sans-serif;
+  font-size: 13px;
+}
+
+.menu-right {
+  padding-right: 20px;
+}
+
+.pop-out{
+  margin-left: 20px;
+}
+
+.pop-out a {
+  color: #fff;
 }
 
 
@@ -102,7 +135,7 @@ a{
     white-space: nowrap;
     overflow: hidden;
     font-weight: 100;
-    font-family: "ARS maquette", sans-serif;
+    font-family: 'ARS Maquette', sans-serif;
     font-size: 12px;
 }
 
@@ -672,9 +705,6 @@ h3  a{
     display: none;
   }
 
-  .nav-bottom {
-    height: 100%;
-  }
 
   .nav-buttons {
     justify-content: flex-end;
