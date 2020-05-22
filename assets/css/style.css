@@ -712,10 +712,15 @@ h3  a{
 }
 
 @media (max-width: 768px) {
-  .nav-top {
+  .nav-top,
+  .nav-menu  {
     display: none;
   }
 
+  .nav-bottom {
+    height: 100%;
+    justify-content: flex-end;
+  }
 
   .nav-buttons {
     justify-content: flex-end;
