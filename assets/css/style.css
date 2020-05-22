@@ -851,6 +851,10 @@ h3  a{
       margin: 15px 0;
     }
 
+    .footer-legal div{
+      display: inline;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -863,6 +867,10 @@ h3  a{
   .nav-bottom {
     height: 100%;
     justify-content: flex-end;
+  }
+
+  .shadow {
+    padding-top: 30px;
   }
 
   .nav-buttons {
@@ -934,9 +942,19 @@ h3  a{
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     gap: 20px;
+  }
 
 
-}
+
+
+
+
+
+
+
+
+
+
 }
 /* Helper classes */
 .flex { display: flex; }
