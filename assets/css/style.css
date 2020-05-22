@@ -676,6 +676,36 @@ h3  a{
   color: #f42;
 }
 
+.deals-img-container{
+  position: relative;
+}
+
+.discount{
+  background: url(../images/deals-discount.svg) 50% no-repeat;
+
+  background-size: contain;
+  color: #000;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+
+.discount-text{
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'ARS Maquette', sans-serif;
+  position: relative;
+  top: 30px;
+  left: 17px;
+}
+
 @media (min-width: 768px) {
   nav {
     height: 80px;
@@ -730,7 +760,8 @@ h3  a{
     margin: 8px 0 0 0;
   }
 
-  .latest-funding{
+  .latest-funding,
+  .deals{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -739,7 +770,7 @@ h3  a{
   .latest-funding-links{
     display: flex;
     flex-direction: row;
-    grid-column: span 3;
+    grid-column: 1/-1;
   }
 
   .latest-funding-links a{
@@ -764,11 +795,26 @@ h3  a{
       grid-column: span 1;
     }
 
+    .deals-tittle{
+      grid-column: 1/-1;
+    }
+
+    .deal{
+      flex-direction: column;
+      transform: ro
+    }
+
+    .deals-img-container {
+      height: 30vh;
+    }
+
+
 }
 
 @media (max-width: 768px) {
   .nav-top,
-  .nav-menu  {
+  .nav-menu,
+  .discount  {
     display: none;
   }
 
@@ -780,7 +826,6 @@ h3  a{
   .nav-buttons {
     justify-content: flex-end;
   }
-
 
 
 }
