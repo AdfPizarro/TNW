@@ -18,11 +18,12 @@
   src: url('../fonts/shentox-medium.ttf')  format('truetype');
 }
 
-header, footer, .latest-news,
-  .latest-funding,
-  .recommended-articles-container,
-  .deals
-  {
+header,
+footer,
+.latest-news,
+.latest-funding,
+.recommended-articles-container,
+.deals {
   font-family: "ARS Maquette", sans-serif;
 }
 
@@ -153,14 +154,8 @@ h3 a {
   margin-top: 116px;
 }
 
-.top-article {
-  color: white;
-}
-
 .a1 { background: url(../images/top-bitcoin.jpg) center no-repeat; }
-
 .a2 { background: url(../images/morality.png) center no-repeat; }
-
 .a3 { background: url(../images/Sprint_image.png) center no-repeat; }
 
 .top-article .header,
@@ -199,6 +194,7 @@ h3 a {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
+.top-article,
 .top-article a,
 .recommended-article a {
   color: white;
@@ -261,7 +257,7 @@ h3 a {
 .deal-content a {
   font-size: 14px;
   color: black;
-  font-family:  'ARS maquette bold', sans-serif;
+  font-family: 'ARS maquette bold', sans-serif;
 }
 
 .story-content li,
@@ -296,7 +292,6 @@ h3 a {
 /* Founding section */
 
 .founding-item {
-
   font-size: 18px;
   background-color: #fffaf8;
 }
@@ -310,8 +305,8 @@ h3 a {
   overflow: hidden;
 }
 
-.founding-item h4{
-    font-family: 'ARS maquette bold', sans-serif;
+.founding-item h4 {
+  font-family: 'ARS maquette bold', sans-serif;
 }
 
 .founding-item h5 {
@@ -770,7 +765,6 @@ h3 a {
 }
 
 /* Fonts */
-
 
 @media (min-width: 1024px) {
   .logo-container {
