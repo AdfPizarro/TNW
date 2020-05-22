@@ -715,6 +715,17 @@ h3  a{
   .top-articles-container{
     height: 60vh;
   }
+
+  .menu-left{
+    margin-left: 10px;
+  }
+
+  .main-title{
+  font-size: 56px;
+  }
+  .secondary-title{
+  font-size: 28px;
+  }
 }
 
 @media (min-width: 768px) {
