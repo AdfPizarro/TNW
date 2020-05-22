@@ -616,10 +616,6 @@ h3  a{
   padding: 35px 0;
 }
 
-.footer-legal {
-  background: #000;
-}
-
 .social-media{
   justify-content: center;
   margin-bottom: 21px;
@@ -660,6 +656,7 @@ h3  a{
   font-size: 13px;
   padding: 32.5px 0;
   line-height: 1.5;
+  background: #000;
 }
 
 .footer-legal div{
@@ -808,6 +805,18 @@ h3  a{
       height: 30vh;
     }
 
+    .social-media li{
+      margin: 0 8px;
+    }
+
+    .page-links a{
+      margin: 0 6px;
+    }
+
+    .footer-legal{
+      display: flex;
+      justify-content: center;
+    }
 
 }
 
