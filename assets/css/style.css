@@ -825,7 +825,7 @@ h3  a{
     }
 
     .deals-img-container {
-      height: 30vh;
+      height: 40vh;
     }
 
     .social-media li{
@@ -845,6 +845,11 @@ h3  a{
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
       gap: 20px;
+    }
+    
+    .deal-content{
+      margin: 15px 0;
+    }
 
 }
 
@@ -918,7 +923,8 @@ h3  a{
     align-items: baseline;
   }
 
-  .latest-funding {
+  .latest-funding,
+  .deals {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     gap: 20px;
@@ -931,7 +937,7 @@ h3  a{
 
 
 }
-
+}
 /* Helper classes */
 .flex { display: flex; }
 .flex-between { justify-content: space-between; }
