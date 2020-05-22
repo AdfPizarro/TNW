@@ -943,17 +943,15 @@ h3  a{
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     gap: 20px;
   }
-
-
-
-
-
-
-
-
-
-
-
+}
+@media(min-width: 1280px){
+  .latest-news,
+  .latest-funding,
+  .recommended-articles-container,
+  .deals {
+    max-width: 1152px;
+    margin: auto;
+  }
 
 }
 /* Helper classes */
