@@ -723,12 +723,41 @@ h3  a{
   .main-title{
   font-size: 56px;
   }
+
   .secondary-title{
   font-size: 28px;
+  }
+
+  .first-article {
+   background: linear-gradient( rgba(255,0,0,.50),  rgba(0,0,0,.70));
+   flex-direction: column;
+   justify-content: space-between;
+
+  }
+  .logo-top img{
+  height: 100px;
+ }
+
+ .logo-top{
+   display: flex;
+   justify-content: space-between;
+   font-family: 'ARS Maquette', sans-serif;
+   font-size: 14px;
+   color: #fff;
+   margin: 24px;
+ }
+
+}
+
+@media (max-width: 1024px){
+  .logo-top{
+    display: none;
   }
 }
 
 @media (min-width: 768px) {
+
+
   nav {
     height: 80px;
   }
