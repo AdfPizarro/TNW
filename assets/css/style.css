@@ -729,6 +729,31 @@ h3  a{
   .story-content {
     margin: 8px 0 0 0;
   }
+
+  .latest-funding{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .latest-funding-links{
+    display: flex;
+    flex-direction: row;
+    grid-column: span 3;
+  }
+
+  .latest-funding-links a{
+    font-size: 16px;
+    font-family: 'ARS Maquette', sans-serif;
+    }
+
+    .latest-funding-links div {
+      border-right: solid 1px #f42;
+      padding-right: 12px;
+      margin-right: 12px;
+
+    }
+
 }
 
 @media (max-width: 768px) {
