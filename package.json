@@ -1,0 +1,24 @@
+{
+  "name": "tnw",
+  "version": "1.0.0",
+  "description": "The next web clone",
+  "main": "index.js",
+  "scripts": {
+    "lintcss": "stylelint assets/css",
+    "lintcss:fix": "stylelint --fix assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdfPizarro/TNW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdfPizarro/TNW/issues"
+  },
+  "homepage": "https://github.com/AdfPizarro/TNW#readme",
+  "devDependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
